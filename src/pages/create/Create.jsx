@@ -53,6 +53,22 @@ export default function Create() {
                             required
                         />
                     </label>
+
+                    <label className={styles.ingredient}>
+                        <span>Recipe Ingredients:</span>
+                        <div className={styles.ingredients}>
+                            <input
+                                className={styles.box}
+                                type="text"
+                                onChange={(e) => setNewIngredients(e.target.value)}
+                                value={newIngredients}
+                                ref={ingredientsInput}
+                            />
+                            <button onClick={handleAdd}>Add</button>
+                        </div>
+                        <p className={styles.list}>Current ingredients: {ingredients.map(i => <em key={i}> <br />-{i} </em>)}</p>
+                    </label>
+
                     <label className={styles.method}>
                         <span>Recipe method:</span>
                         <textarea
@@ -61,21 +77,6 @@ export default function Create() {
                             required
                         />
                     </label>
-
-                    <label className={styles.ingredients}>
-                        <span>Recipe Ingredients:</span>
-                        <div className="ingredients">
-                            <input
-                                className={styles.box}
-                                type="text"
-                                onChange={(e) => setNewIngredients(e.target.value)}
-                                value={newIngredients}
-                                ref={ingredientsInput}
-                            />
-                            <button onClick={handleAdd}>add</button>
-                        </div>
-                    </label>
-                    <p>Current ingredients: {ingredients.map(i => <em key={i}> <br />{i} </em>)}</p>
 
                     <label className={styles.time}>
                         <span>Cooking time (minutes):</span>
@@ -87,7 +88,7 @@ export default function Create() {
                         />
                     </label>
 
-                    <button>submit</button>
+                    <button className={styles.submit}>Submit</button>
                 </form>
 
             </div>

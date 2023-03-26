@@ -41,4 +41,37 @@
     text-align: left;
 }
 
-label input {}
+.ingredients {
+    display: flex;
+    column-gap: 10px;
+}
+
+.list {
+    margin: 10px;
+    color: rgb(138, 119, 26);
+}
+
+button:hover {
+    background-color: rgb(231, 216, 199);
+}
+
+button:active {
+    background-color: rgb(189, 177, 162);
+}
+
+button {
+    padding: 20px 30px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 40%;
+}

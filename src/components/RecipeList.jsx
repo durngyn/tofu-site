@@ -3,6 +3,10 @@ import styles from './RecipeList.module.css'
 import { Link } from 'react-router-dom'
 
 export default function RecipeList({ recipes }) {
+
+    if (recipes.length === 0) {
+        return <div>No recipes to load...</div>
+    }
     return (
         <div className={styles.main}>
             {recipes.map(recipe => (

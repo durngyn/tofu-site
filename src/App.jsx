@@ -16,7 +16,6 @@ function App() {
         <Route path="/recipes/:id" element={<Recipe />} />
         <Route path="/search" element={<Search />} />
       </Routes>
-
     </div>
   );
 }

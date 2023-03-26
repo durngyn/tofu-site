@@ -47,6 +47,7 @@
 .btn:hover {
     color: #755924;
     border: solid #755924;
+    background: transparent;
 }
 
 .btn:active {
