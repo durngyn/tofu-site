@@ -1,0 +1,51 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 4px;
+}
+
+.main h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.recipe p {
+    margin: 10px;
+    color: rgb(138, 119, 26);
+    text-align: center;
+}
+
+.recipe {
+    margin: 70px;
+    padding: 20px;
+    border: solid 5px rgb(255, 208, 0);
+    border-radius: 8px;
+    background: rgb(255, 252, 246);
+    box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.685);
+}
+
+.recipe a {
+    padding: 10px;
+    margin: 30px;
+    background-color: antiquewhite;
+    /* border: solid 5px rgb(255, 208, 0); */
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    margin: 20px auto 0;
+    border-radius: 8px;
+
+}
+
+.recipe a:hover {
+    background-color: rgb(231, 216, 199);
+}
+
+.recipe a:active {
+    background-color: rgb(189, 177, 162);
+}

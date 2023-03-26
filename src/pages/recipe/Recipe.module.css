@@ -1,0 +1,51 @@
+.recipe {
+    margin: 50px 200px;
+    background: rgb(255, 252, 246);
+    background-clip: content-box;
+    border: solid 5px rgb(255, 208, 0);
+    border-radius: 8px;
+
+}
+
+.recipe h2 {
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.ing {
+    margin-right: 10px;
+    color: rgb(138, 119, 26);
+}
+
+.recipe ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe li:after {
+    content: ",";
+}
+
+.recipe li:last-child:after {
+    content: ".";
+}
+
+.recipe li {
+    list-style-type: none;
+    color: rgb(138, 119, 26);
+    margin-right: 10px;
+}
+
+
+.time {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.method {
+    text-align: left;
+    padding: 60px;
+}

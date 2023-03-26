@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px rgb(255, 208, 0);
+    border-radius: 8px;
+    background: rgb(255, 252, 246);
+    background-clip: border-box;
+    width: fit-content;
+}
+
+.titlewrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

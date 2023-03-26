@@ -1,0 +1,44 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create {
+    padding: 60px;
+    background: rgb(255, 252, 246);
+    background-clip: content-box;
+    border: solid 5px rgb(255, 208, 0);
+    border-radius: 8px;
+    background-clip: border-box;
+    transform: scale(0.8);
+    width: 50%;
+}
+
+.create h2 {
+    text-align: center;
+    margin: 40px;
+}
+
+.form {
+    margin: 60px 150px;
+}
+
+.create label {
+    display: flex;
+    flex-direction: column;
+
+    /* padding: 50px; */
+    margin-top: 50px;
+    text-align: left;
+    /* text-align: left; */
+    /* width: 100%; */
+}
+
+.box {}
+
+.method span {
+    text-align: left;
+}
+
+label input {}
