@@ -50,3 +50,7 @@
 .recipe a:active {
     background-color: rgb(189, 177, 162);
 }
+
+.delete:hover {
+    color: rgba(0, 0, 0, 0.452)
+}
